@@ -1,0 +1,24 @@
+@media screen and (max-width: 428px) {
+  /* sidebar */
+  /*.js-menu-container {
+      display: flex;
+    }
+    .menu-toggle {
+      display: flex;
+    }
+    .header-list-sidebar {
+      display: flex;
+    }
+    .address-list-sidebar {
+      display: flex;
+    }
+    .social-media-icons-sidebar {
+      display: flex;
+    }
+    .js-open-menu {
+      display: flex;
+    } */
+  .list.header-list {
+    display: none;
+  }
+}
