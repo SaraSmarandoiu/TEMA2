@@ -21,4 +21,25 @@
   .list.header-list {
     display: none;
   }
+  .list.address-list {
+    display: none;
+  }
+  .js-open-menu {
+    display: flex;
+  }
+  .solutions {
+    font-size: 36px;
+    max-width: 320px;
+  }
+
+  .list.second-list {
+    flex-direction: column;
+  }
+  .icons-second {
+    display: none;
+  }
+  .list-title-second {
+    font-size: 36px;
+    font-weight: 700;
+  }
 }
