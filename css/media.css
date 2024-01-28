@@ -51,9 +51,11 @@
     font-size: 36px;
     font-weight: 700;
     text-align: center;
+    flex-wrap: wrap;
   }
   .list-item {
-    width: 396px;
+    max-width: 396px;
+    flex-wrap: wrap;
   }
   .list.portfolio-list {
     display: none;
@@ -71,7 +73,7 @@
     overflow-x: hidden;
   }
   .icon-client {
-    width: calc((100% - 120px) / 2);
+    width: calc((100% - 190px) / 2);
   }
   .customers-list.list {
     justify-content: center;
@@ -89,9 +91,7 @@
     margin: 0 auto;
     justify-content: center;
   }
-  .footer-logo {
-    
-  }
+
   .form-subscribe {
     flex-direction: column;
   }
@@ -112,6 +112,7 @@
   .subscribe-box {
     width: 380px;
     flex-wrap: wrap;
+    justify-content: center;
   }
   .list.filters-list {
     flex-wrap: wrap;
@@ -144,7 +145,7 @@
     justify-content: center;
   }
   .list-item {
-    width: 350px;
+    width: 340px;
   }
   .list-title-second {
     font-weight: 500;
@@ -179,9 +180,15 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
   }
+  .footer-icons {
+    margin: 12px;
+  }
+
   .logo-footer {
     margin-right: 0px;
+    margin-left: auto;
   }
   .app-item {
     width: 356px;
