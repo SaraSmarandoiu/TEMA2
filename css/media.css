@@ -1,45 +1,199 @@
 @media screen and (max-width: 428px) {
   /* sidebar */
-  /*.js-menu-container {
-      display: flex;
-    }
-    .menu-toggle {
-      display: flex;
-    }
-    .header-list-sidebar {
-      display: flex;
-    }
-    .address-list-sidebar {
-      display: flex;
-    }
-    .social-media-icons-sidebar {
-      display: flex;
-    }
-    .js-open-menu {
-      display: flex;
-    } */
+  .container {
+    overflow-x: hidden;
+  }
+  .logo {
+    margin-right: 0;
+  }
+  .js-menu-container {
+    display: flex;
+    max-width: 428px;
+  }
+  .menu-toggle {
+    display: flex;
+  }
+  .header-list-sidebar {
+    display: flex;
+  }
+  .address-list-sidebar {
+    display: flex;
+  }
+  .social-media-icons-sidebar {
+    display: flex;
+  }
+  .menu-toggle.modal-button.js-close-menu {
+    display: flex;
+  }
   .list.header-list {
     display: none;
   }
   .list.address-list {
     display: none;
   }
-  .js-open-menu {
+  .js-close-menu {
     display: flex;
   }
   .solutions {
     font-size: 36px;
     max-width: 320px;
   }
-
+  .icons-second {
+    display: none;
+  }
   .list.second-list {
     flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .list-title-second {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .list-item {
+    width: 396px;
+  }
+  .list.portfolio-list {
+    display: none;
+  }
+  .what-do {
+    display: none;
+  }
+  .list.cards-list {
+    flex-direction: column;
+    max-width: 264px;
+    justify-content: center;
+    gap: 72px;
+  }
+  .title {
+    overflow-x: hidden;
+  }
+  .icon-client {
+    width: calc((100% - 120px) / 2);
+  }
+  .customers-list.list {
+    justify-content: center;
+  }
+  .modal {
+    max-width: 428px;
+  }
+  .footer-div {
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .logo-footer {
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .footer-logo {
+    
+  }
+  .form-subscribe {
+    flex-direction: column;
+  }
+  .container.subscribe {
+    align-items: center;
+  }
+  .social-icons-footer {
+    margin: 0 auto;
+    align-items: center;
+  }
+  .footer-icons {
+    align-items: center;
+    justify-content: center;
+  }
+  .social-media-text {
+    text-align: center;
+  }
+  .subscribe-box {
+    width: 380px;
+    flex-wrap: wrap;
+  }
+  .list.filters-list {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .list.apps-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 429px) and (max-width: 768px) {
+  .container {
+    overflow-x: hidden;
+  }
+
+  .list.address-list {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .contacts.link {
+    font-size: 12px;
   }
   .icons-second {
     display: none;
   }
+
+  .list.second-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .list-item {
+    width: 350px;
+  }
   .list-title-second {
+    font-weight: 500;
     font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--logo-color);
+    margin-bottom: 8px;
+    text-align: left;
+    text-transform: capitalize;
+
     font-weight: 700;
+  }
+  .list.portfolio-list {
+    display: none;
+  }
+  .what-do {
+    display: none;
+  }
+  .list.cards-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .customers-list.list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .icon-client {
+    width: calc((100% - 120px) / 3);
+  }
+  .footer-div {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .logo-footer {
+    margin-right: 0px;
+  }
+  .app-item {
+    width: 356px;
+  }
+  .list.apps-list {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1156px) {
+  .container {
+    overflow-x: hidden;
   }
 }

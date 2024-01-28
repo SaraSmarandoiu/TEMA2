@@ -8,6 +8,11 @@
   --list-color: #e7e9fc;
   --modal-color: #8e8f99;
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 /* general */
 .body {
   font-family: "Roboto", sans-serif;
@@ -159,11 +164,12 @@ img {
   color: var(--basic-color);
   cursor: pointer;
   display: block;
-  min-width: 169px;
+  width: 169px;
   height: 56px;
   border: none;
   border-radius: 4px;
   margin: 0 auto;
+
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .order-button:hover,
@@ -173,6 +179,7 @@ img {
 /* second section */
 .second-section {
   padding: 120px 0;
+  display: flex;
 }
 .visually-hidden {
   position: absolute;
@@ -190,6 +197,7 @@ img {
   display: flex;
   gap: 24px;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 .list-item {
   width: calc((100% - 72px) / 4);
@@ -242,12 +250,14 @@ img {
   gap: 24px;
 }
 .images-third-list {
-  width: 360px;
+  max-width: 360px;
+  align-self: center;
 }
 /* fourth section */
 .cards-section {
   background-color: var(--word-color);
   padding: 120px 0;
+  display: flex;
 }
 .cards-title {
   font-size: 36px;
@@ -327,7 +337,6 @@ img {
 .customers {
   padding-top: 120px;
   padding-bottom: 120px;
-  display: block;
 }
 .customers-title {
   color: var(--logo-color);
@@ -344,6 +353,7 @@ img {
 .customers-list.list {
   display: flex;
   gap: 24px;
+  flex-wrap: wrap;
 }
 .icon-client {
   width: calc((100% - 120px) / 6);
@@ -725,7 +735,7 @@ img {
   row-gap: 48px;
 }
 .app-item {
-  width: 360;
+  width: 360px;
 }
 .app-item:focus,
 .app-item:hover {
