@@ -393,15 +393,15 @@ img {
 }
 .footer-div.container {
   display: flex;
-  align-items: baseline;
+  
 }
 .logo-footer {
   margin-right: 120px;
-  width: 264px;
+  max-width: 264px;
 }
 
 .logo.footer-logo.link {
-  display: inline-block;
+  display: flex;
   margin-bottom: 16px;
 }
 .word.link {

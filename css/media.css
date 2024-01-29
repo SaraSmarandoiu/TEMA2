@@ -54,7 +54,7 @@
     flex-wrap: wrap;
   }
   .list-item {
-    max-width: 396px;
+    width: 396px;
     flex-wrap: wrap;
   }
   .list.portfolio-list {
@@ -81,39 +81,6 @@
   .modal {
     max-width: 428px;
   }
-  .footer-div {
-    flex-direction: column;
-    margin: 0 auto;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .logo-footer {
-    margin: 0 auto;
-    justify-content: center;
-  }
-
-  .form-subscribe {
-    flex-direction: column;
-  }
-  .container.subscribe {
-    align-items: center;
-  }
-  .social-icons-footer {
-    margin: 0 auto;
-    align-items: center;
-  }
-  .footer-icons {
-    align-items: center;
-    justify-content: center;
-  }
-  .social-media-text {
-    text-align: center;
-  }
-  .subscribe-box {
-    width: 380px;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
   .list.filters-list {
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -121,6 +88,36 @@
   .list.apps-list {
     flex-wrap: wrap;
     justify-content: center;
+  }
+  .footer-div {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .logo-footer {
+    margin-right: 0;
+    margin-bottom: 72px;
+  }
+  .logo.footer-logo.link {
+    justify-content: center;
+  }
+  .social-icons-footer.list {
+    margin-right: 0;
+    margin-bottom: 72px;
+  }
+
+  .form-subscribe {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .subscribe-box {
+    width: 350px;
+  }
+  .subscribe-button {
+    width: 165px;
   }
 }
 @media screen and (min-width: 429px) and (max-width: 768px) {
@@ -181,15 +178,22 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding-left: 108px;
+    align-items: baseline;
+  }
+  .logo-footer {
+    margin-right: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 72px;
   }
   .footer-icons {
-    margin: 12px;
+    margin: 0;
+    margin-bottom: 72px;
+    margin-left: 14px;
   }
 
-  .logo-footer {
-    margin-right: 0px;
-    margin-left: auto;
-  }
   .app-item {
     width: 356px;
   }
