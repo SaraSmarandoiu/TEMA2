@@ -124,14 +124,38 @@
   .container {
     overflow-x: hidden;
   }
-
+  .logo {
+    margin-right: 0;
+  }
+  .js-menu-container {
+    display: flex;
+    max-width: 768px;
+  }
+  .menu-toggle {
+    display: flex;
+  }
+  .header-list-sidebar {
+    display: flex;
+  }
+  .address-list-sidebar {
+    display: flex;
+  }
+  .social-media-icons-sidebar {
+    display: flex;
+  }
+  .menu-toggle.modal-button.js-close-menu {
+    display: flex;
+  }
+  .list.header-list {
+    display: none;
+  }
   .list.address-list {
-    flex-direction: column;
-    gap: 12px;
+    display: none;
   }
-  .contacts.link {
-    font-size: 12px;
+  .js-close-menu {
+    display: flex;
   }
+
   .icons-second {
     display: none;
   }
